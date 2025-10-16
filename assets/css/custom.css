@@ -1,24 +1,48 @@
+@charset "UTF-8";
 html {
-  font-size: 10px;
-  /* 1rem = 10px по умолчанию */
+  font-size: 10px; /* 1rem = 10px по умолчанию */
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 1.6rem;
   background-color: #ffffff;
+  color: grey;
 }
+
 h1 {
   color: #5900ff;
   font-size: clamp(2.4rem, 3vw, 5rem);
   font-weight: 700;
 }
+
 h2 {
   color: #ea00ff;
   font-size: clamp(1.8rem, 3vw, 3.5rem);
   font-weight: 500;
 }
+
 h3 {
   color: #00ff4c;
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 400;
+}
+
+h4 {
+  color: rgb(255, 255, 0);
+}
+
+.blok {
+  margin-top: 60px;
+}
+
+.blok__item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .blok {
+    margin-top: 30px;
+  }
 }

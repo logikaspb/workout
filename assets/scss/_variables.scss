@@ -1,0 +1,33 @@
+// Цвета
+$body-color: grey;
+$h1-color: #5900ff;
+$h2-color: #ea00ff;
+$h3-color: #00ff4c;
+$h4-color: rgb(255, 255, 0);
+$subtitle-color: #6c757d;
+$bg-color: #e7e7e7;
+
+$text-color: #212529;
+$bg-color: #ffffff;
+$link-color: #dee2e6;
+$border-color: #dee2e6;
+
+// Шрифты
+$font-family-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$h1-fs: clamp(2.4rem, 3vw, 5rem);
+$h2-fs: clamp(1.8rem, 3vw, 3.5rem);
+$h3-fs: clamp(1.4rem, 3vw, 2rem);
+
+// Отступы
+$padding-base: 1rem;
+$padding-sm: 0.5rem;
+$padding-lg: 2rem;
+
+$margin-base: 1rem;
+$margin-sm: 0.5rem;
+$margin-lg: 2rem;
+
+// Размеры
+$container-width: 1200px;
+$border-radius: 4px;
+$box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

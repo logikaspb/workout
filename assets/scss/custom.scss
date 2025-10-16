@@ -1,0 +1,49 @@
+@import "_variables";
+
+html {
+  font-size: 10px; /* 1rem = 10px по умолчанию */
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  background-color: $bg-color;
+  color: $body-color;
+}
+h1 {
+  color: $h1-color;
+  font-size: $h1-fs;
+  font-weight: 700;
+}
+h2 {
+  color: $h2-color;
+  font-size: $h2-fs;
+  font-weight: 500;
+}
+h3 {
+  color: $h3-color;
+  font-size: $h3-fs;
+  font-weight: 400;
+}
+h4 {
+  color: $h4-color;
+}
+.blok {
+
+		&__item {
+		}
+}
+.blok {
+  margin-top: 60px;
+}
+.blok__item {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+    .blok {
+    margin-top: 30px;
+  }
+}
