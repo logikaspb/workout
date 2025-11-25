@@ -1,13 +1,8 @@
 <?php
 
-require_once('autoload.php');
+echo 'Кол-во аргументов: ' . $argc . PHP_EOL;
+echo 'Название скрипта: ' . $argv[0] . PHP_EOL;
+echo 'Первый аргумент: ' . $argv[1] . PHP_EOL;
+echo 'Второй аргумент: ' . $argv[2] . PHP_EOL;
 
-$person[] = new Person('name 1', 'surname 1');
-$person[] = new Student('name 2', 'surname 2');
-$person[] = new Teacher('name 3', 'surname 3');
-
-foreach ($person as $item) {
-  if ($item instanceof Person) {
-    echo $item->getHello().PHP_EOL;
-  }
-}
+print_r($argv);
